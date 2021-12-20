@@ -1,0 +1,29 @@
+.news{
+    background: #F8F8F8;
+    padding: 76px;
+    &__content-block{
+        background: white;
+    }
+    &__content-block1, &__content-block2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+.news__content-block-text{
+    font-family: Lora;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222831;
+    max-width: 318px;
+    margin: 14px 16px 0;
+}
+.news__content-block-pretext{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #9A9A9A;
+    margin: 4px 16px 16px;
+}

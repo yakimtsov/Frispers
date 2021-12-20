@@ -1,0 +1,27 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    &__content{
+        margin: 0 auto;
+        text-align: center;
+        &-title{
+            max-width: 496px;
+            padding: 15px 0 40px;
+        }
+        &-img{
+            margin: 60px auto;
+        }
+    }
+}
+.spaces__content-icon{
+    display: flex;
+    justify-content: center;
+}
+.gallery__content-pretitle::after{
+    left: 333px;
+}
+.gallery__container{
+    max-width: 1110px;
+    margin: 60px auto;
+    text-align: -webkit-center;
+}

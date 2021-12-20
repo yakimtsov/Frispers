@@ -1,0 +1,99 @@
+.content-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #222831;
+    position: relative;
+}
+.content-title::after{
+    content: '';
+    width: 73px;
+    height: 2px;
+    background: #222831;
+    position: absolute;
+    top: 50%;
+    left: 130px;
+}
+.introducing__content{
+    
+    &-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-revol{
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 67px;
+        color: #10375C;
+        &>h3{
+            color: #DD2C00;
+            display: inline-block;
+        }
+    }
+    &-frisp{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6A6A6A;
+        max-width: 380px;
+        display: inline-block;
+    }
+    &-block{
+        background: #10375C;
+        padding: 40px 40px;
+        width: 445px;
+        margin-top: 65px;
+        position: relative;
+        z-index: 2;
+
+        &-title{
+            font-weight: bold;
+            font-size: 34px;
+            color: #FFFFFF;
+        }
+        &-form-input{
+            position: relative;
+            margin: 30px 0;
+        }
+        &-form-content, &-form-content::placeholder{
+            background: #0D2C4A;
+            color: white;
+            border: none;
+            width: 365px;
+            height: 68px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        &-form-content{
+            padding: 34px 0 8px 16px;
+            &-name::after{
+                content: 'Name';
+            }
+            &-phone::after{
+                content: 'Telephone';
+            }
+            &-email::after{
+                content: 'Email';
+            }
+            &-name::after, &-phone::after, &-email::after{
+                position: absolute;
+                top: 8px;
+                left: 16px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+                opacity: 0.35;
+            }
+        }
+        &-button{
+            width: 100%;
+        }
+    }
+    &-img{
+        position: absolute;
+        right: 0;
+        top: 390px;
+        z-index: 1; 
+    }
+}

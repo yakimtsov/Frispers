@@ -1,0 +1,52 @@
+.facilities__content-text-title{
+    max-width: 570px;
+    margin-top: 30px;
+}
+.facilities__content-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    &-img{
+        margin-bottom: 150px;
+    }
+    &-button-input{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222831;
+        width: 293px;
+        height: 72px;
+        padding: 24px;
+    } 
+    &-button>form>input{
+        opacity: 0;
+    }
+}
+#block-1,#block-2,#block-4,#block-5{
+    display: none;
+}
+#cafe:checked + div{
+    background: #FF5722;
+    color: white;
+    box-shadow: 10px 10px 31px -5px rgba(206, 141, 36, 0.73);
+}
+#area:checked + div{
+    background:#FF5722;
+    color: white;
+    box-shadow: 10px 10px 31px -5px rgba(206, 141, 36, 0.73);
+}
+#spaces:checked + div{
+    background: #FF5722;
+    color: white;
+    box-shadow: 10px 10px 31px -5px rgba(206, 141, 36, 0.73);
+}
+#playground:checked + div{
+    background: #FF5722;
+    color: white;
+    box-shadow: 10px 10px 31px -5px rgba(206, 141, 36, 0.73);
+}
+#outdoor:checked + div{
+    background: #FF5722;
+    color: white;
+    box-shadow: 10px 10px 31px -5px rgba(206, 141, 36, 0.73);
+}

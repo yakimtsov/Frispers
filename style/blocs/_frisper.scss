@@ -1,0 +1,26 @@
+.frisper__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    &-grid{
+        display: grid;
+        grid-template-columns: 25% 25%;
+        row-gap: 64px;
+        column-gap: 124px;
+    }
+    &-block{
+        background:#10375C;
+        padding: 53px;
+        &-contenttitle, &-title,  &-pretitle{
+            color: white;
+        }
+        &-contenttitle::after{
+            background: white;
+        }
+        &-title{
+            margin-bottom: 24px;
+        }
+    }
+
+}

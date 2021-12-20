@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.button{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    background: #FF5722;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    cursor: pointer;
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+}
+.content-title::after{
+    content: '';
+    width: 73px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+}

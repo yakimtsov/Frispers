@@ -1,6 +1,6 @@
 @media (max-width: 1090px){
     .container{
-        max-width: 750px;
+        max-width: 980px;
     }
     .checkbox, .check-wrapper{
         display: block;
@@ -43,7 +43,7 @@
     .checkbox:checked ~ .header__nav{
         display: block;
         position: fixed;
-        background: rgba(43, 41, 45, 0.8);
+        background: rgba(43, 41, 45, 0.9);
         top: 0;
         left: 0;
         bottom: 0;
@@ -64,5 +64,34 @@
     .header__nav-li{
         display: block;
         margin: 0 0 20px;
+    }
+    .introducing__content{
+        &-revol{
+            font-size: 48px;
+            line-height: 64px;
+        }
+        &-img{
+            top: 366px;
+        }
+    }
+    .facilities__content-block{
+        align-items: center;
+        margin-bottom: 100px;
+        &-img{
+            margin-bottom: 0;
+        }
+        &-img-area{
+            width: 600px;
+            height: 360px;
+        }
+    }
+    .spaces__content__slick-img2{
+        display: none;
+    }
+    .gallery__container{
+        max-width: 960px;
+    }
+    .minimal, .tips{
+        display: none;
     }
 }

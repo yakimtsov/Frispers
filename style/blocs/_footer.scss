@@ -27,10 +27,10 @@
             &-icons{
                 display: flex;
                 align-items: center;
-                &>img{
+                &>a{
                     margin-right: 16px;
                 }                
-                &>img:last-child{
+                &>a:last-child{
                     margin-right: 0;
                 }
             }

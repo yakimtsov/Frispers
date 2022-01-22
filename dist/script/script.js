@@ -19,8 +19,8 @@ $('.gallery__content-img').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
-	prevArrow: '.spaces__content-icon-first',
-	nextArrow: '.spaces__content-icon-second'	
+	prevArrow: '.icon-first',
+	nextArrow: '.icon-second'	
 });
 $('.reviews__content-block').slick({
 	infinite: true,

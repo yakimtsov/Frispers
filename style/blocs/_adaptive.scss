@@ -1,6 +1,6 @@
 @media (max-width: 1090px){
     .container{
-        max-width: 980px;
+        max-width: 950px;
     }
     .checkbox, .check-wrapper{
         display: block;
@@ -91,9 +91,12 @@
     .minimal, .tips{
         display: none;
     }
+    .block{
+        display: none;
+    }
     .news{
         &__content-block{
-            max-width: fit-content;
+            max-width: 350px;
         }
         &__content-block1{
             display: grid;
@@ -102,18 +105,12 @@
             &>div:nth-child(1){
                 grid-column: span 2;
             }
-            &>div:nth-child(2){
-                grid-column: span 1;
-            }
-            &>div:nth-child(3){
-                grid-column: span 1;
-            }
-            &>div:nth-child(4){
-                grid-column: span 1;
-            }
-            &>div:nth-child(5){
-                grid-column: span 1;
-            }
+        }
+        &__content-block2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 30px;
+            margin-top: 30px;
         }
     }
     .spaces__content__slick{
@@ -173,7 +170,7 @@
             }
             &-img-p, &-img2-p, &-img3-p {
                 font-size: 28px;
-                margin: 10px 117px;
+                margin: 40px 117px;
             }
             &-img-h3, &-img2-h3, &-img3-h3 {
                 font-size: 48px;
@@ -215,5 +212,24 @@
         gap: 10px;
         align-items: center;
         justify-content: center;
+    }
+    .news__content-img>img{
+        width: 98%;
+    }
+    .news__content-block2 {
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .footer__content{
+        display: block;
+        &__logo{
+            margin-right: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-block{
+            display: inline-grid;
+            margin: 50px 16px;
+        }
     }
 }

@@ -233,3 +233,81 @@
         }
     }
 }
+@media (max-width: 480px){
+    .container{
+        max-width: 380px;
+    }
+    .introducing__content-block {
+        padding: 26px 19px;
+        width: 375px;
+    }
+    .introducing__content-block-form-content, .introducing__content-block-form-content::placeholder {
+        width: 333px;
+    }
+    .introducing__content-img {
+        top: 390px;
+    }
+    .introducing__content-revol {
+        font-size: 27px;
+        line-height: 50px;
+    }
+    .introducing__content-frisp {
+        font-size: 14px;
+        line-height: 28px;
+        max-width: 135px;
+    }
+    .spaces__content-pretitle {
+        max-width: 208px;
+    }
+    .spaces__content__slick-img>img, .spaces__content__slick-img2>img, .spaces__content__slick-img3>img {
+        width: 400px;
+    }
+    .spaces__content__slick-hover, .spaces__content__slick-hover2, .spaces__content__slick-hover3 {
+        width: 400px;
+        height: 480px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .frisper__content-block-pretitle {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .facilities__content-block-img-area {
+        width: 400px;
+        height: 224px;
+    }
+    .who__content-img {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .reviews__content {
+        flex-direction: column;
+    }
+    .reviews__content-block-text {
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 20px;
+    }
+    .reviews {
+        padding: 50px 0 0;
+    }
+    .answers__content {
+        flex-direction: column;
+    }
+    .answers__content-block {
+        margin-bottom: 45px;
+    }
+    .news__content-block {
+        max-width: 300px;
+        &>img{
+            width: 300px;
+        }
+    }
+    .member__content{
+        flex-direction: column;
+    }
+    .footer__content__logo {
+        flex-direction: column;
+    }
+}
